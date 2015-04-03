@@ -1,57 +1,55 @@
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-bottom: 2px;
+margin-left: -15px;
+margin-right: -15px;
+margin-bottom: 2px;
 }
 
 .grid-row {
-  margin: 0 auto;
-  max-width: 940px;
+margin: 0 auto;
+max-width: 940px;
 }
 .grid-row:after {
-  content: "";
-  display: block;
-  clear: both;
+content: "";
+display: block;
+clear: both;
 }
 
 .col-4 {
-	width: 33.33333333333333%; 
-	float: left;
-	position: relative; 
-	min-height: 1px;
-	padding-left: 15px;
-	padding-right: 15px;
+width: 33.33333333333333%; 
+float: left;
+position: relative; 
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .clearfix:after,
 #content:after,
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+content: "";
+display: table;
+clear: both;
 }
 
 .clear {
-  clear: both;
+clear: both;
 }
+
+#wrapper {width:100%; max-width: none;}
 
 #content {
-  width:100%;
-  float: left;
-  min-height: 1px;
+width:100%;
+float: left;
+min-height: 1px;
 }
 
-#main {
-   padding: 9%;
-}
-
-
+#main {padding: 9%;}
 
 .box-wrap {padding:0 1px;}
 
@@ -62,28 +60,21 @@ height: 166px;
 width: 100%;
 }
 
-
-
 .box .box_title {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  font-size: 1.8em !important;
-  color: #fff;
-  top: 80px;
-  margin: 0;
-  pointer-events: none;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-weight: bold;
+position: absolute;
+text-align: center;
+width: 100%;
+font-size: 1.8em !important;
+color: #fff;
+top: 80px;
+margin: 0;
+pointer-events: none;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
 }
 
-
-
-
 /* -------- Responsive @media query ------------- */
-
-
 
 @media (max-width: 460px) {
 .col-4 {float: none; width: 100%;}
@@ -93,40 +84,23 @@ width: 100%;
 .show-hide {display:block;}
 }
 
-
-
-
 @media (max-width: 1024px) {
 .box {height: 121px;}
 .box .box_title {font-size: 30px!important; top: 52px !important;}
 }
 
 
-
 /* iPads (portrait) ----------- */
-
 
 @media (max-width: 768px) {
 .box {height: 74px;}
 .box .box_title {font-size: 20px!important; top: 30px !important;}
 }
 
-
-#wrapper {
-width:100%;
-max-width: none;
-	}
-	
 @media only screen and (min-width: 801px) and (max-width: 1014px){
-#wrapper {
-width:auto;
-		}
+#wrapper {width:auto;}
 	}
 
 @media only screen and (min-device-width: 801px) and (max-device-width: 1014px){
-#wrapper{
-width:auto;
-		}
+#wrapper{width:auto;}
 }
-	
-
