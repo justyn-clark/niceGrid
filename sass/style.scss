@@ -65,7 +65,7 @@ position: absolute;
 text-align: center;
 width: 100%;
 font-size: 1.8em !important;
-color: #fff;
+color: black;
 top: 80px;
 margin: 0;
 pointer-events: none;
@@ -86,7 +86,7 @@ font-weight: bold;
 
 @media (max-width: 1024px) {
 .box {height: 121px;}
-.box .box_title {font-size: 30px!important; top: 52px !important;}
+.box .box_title {font-size: 23px!important; top: 52px !important;}
 }
 
 
