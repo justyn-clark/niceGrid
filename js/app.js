@@ -3,10 +3,10 @@ $(document).ready(function (){
 $("img").hide();
 
 
-$('.row').click(function(){
+$('.box').click(function(){
 
 
- 		$('img').slideToggle();
+ 		$(this).find('img').slideToggle();
  		
 
  });

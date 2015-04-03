@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -64,7 +73,7 @@
 .box {
   overflow: hidden;
   position: relative;
-  height: 166px;
+  height: 200px;
   width: 100%;
 }
 
@@ -74,16 +83,21 @@
   width: 100%;
   font-size: 1.8em !important;
   color: black;
-  top: 80px;
+  top: 0px;
   margin: 0;
   pointer-events: none;
   text-transform: uppercase;
   font-family: sans-serif;
   font-weight: bold;
+  line-height: 200px;
 }
 
 /* -------- Responsive @media query ------------- */
-@media (max-width: 460px) {
+@media (max-width: 768px) {
+  #main {
+    padding: 1% 5%;
+  }
+
   .col-4 {
     float: none;
     width: 100%;
@@ -107,23 +121,23 @@
 }
 @media (max-width: 1024px) {
   .box {
-    height: 121px;
+    height: 200px;
   }
 
   .box .box_title {
     font-size: 23px !important;
-    top: 52px !important;
+    top: 02px !important;
   }
 }
 /* iPads (portrait) ----------- */
 @media (max-width: 768px) {
   .box {
-    height: 74px;
+    height: 200px;
   }
 
   .box .box_title {
     font-size: 20px !important;
-    top: 30px !important;
+    top: 0px !important;
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1014px) {
