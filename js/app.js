@@ -1,14 +1,10 @@
-$(document).ready(function (){
+$(document).ready(function () {
 
-$("img").hide();
+    $("img").hide();
 
+    $('.box').click(function () {
 
-$('.box').click(function(){
+        $(this).find('img').slideToggle();
 
-
- 		$(this).find('img').slideToggle();
- 		
-
- });
-
+    });
 });
